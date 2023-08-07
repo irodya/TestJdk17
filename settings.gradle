@@ -1,0 +1,5 @@
+rootProject.name = 'TestJdk17'
+include 'ui'
+include 'test-service'
+include 'test-service2'
+

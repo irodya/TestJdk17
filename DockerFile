@@ -1,0 +1,5 @@
+FROM openjdk:17.0.1
+WORKDIR /server
+COPY ./ui/build/libs/ui-1.0-SNAPSHOT.jar /server/ui-1.0-SNAPSHOT.jar
+EXPOSE 8080
+CMD ["java", "-jar", "ui-1.0-SNAPSHOT.jar"]
